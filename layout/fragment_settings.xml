@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:background="@drawable/gradient_background">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Choose Theme" android:textSize="20sp" android:textStyle="bold" android:layout_marginBottom="16dp" android:textColor="@android:color/white"/>
+    <RadioGroup android:id="@+id/radioGroupTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" >
+        <RadioButton android:id="@+id/radioLight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Light Theme" android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/radioDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dark Theme" android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/radioSystemDefault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="System Default" android:textColor="@color/white"/>
+    </RadioGroup>
+</LinearLayout>

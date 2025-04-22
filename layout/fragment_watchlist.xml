@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:background="@drawable/gradient_background">
+    <TextView android:id="@+id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Watchlist" android:textSize="20sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:paddingBottom="12dp"/>
+    <Button android:id="@+id/btnRefresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refresh" android:layout_gravity="end" android:backgroundTint="@android:color/holo_blue_dark" android:textColor="@android:color/white"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewWatchlist" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+</LinearLayout>
