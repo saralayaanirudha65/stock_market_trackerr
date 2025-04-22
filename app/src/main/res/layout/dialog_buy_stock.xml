@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter quantity"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvTotalCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="12dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnConfirmBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Buy"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+</LinearLayout>
